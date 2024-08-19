@@ -1,0 +1,21 @@
+.serviceText {
+  background: #cf206f;
+  background: linear-gradient(to right, #cf206f 0%, #cf9e09 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.underline_text {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 10px;
+}
+.box {
+  background-color: white;
+  color: black;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  margin-left: 5px;
+}
+
+.textcolor {
+  color: gray;
+}

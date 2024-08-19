@@ -1,0 +1,36 @@
+.paragraph_Text {
+  color: grey;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+.ike {
+  position: relative;
+  z-index: 5;
+}
+
+.ike:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0.25turn, rgb(232, 81, 81), yellow);
+  height: 1rem;
+  width: 100%;
+  z-index: -1;
+}
+
+.btn {
+  background: linear-gradient(0.25turn, purple, rgb(255, 174, 0));
+  border: none;
+}
+.button.is-transparent {
+  background-color: transparent;
+  border-color: 1px solid black;
+  color: #000;
+}
+
+.social-icons {
+  margin-bottom: 4rem;
+  color: black;
+}

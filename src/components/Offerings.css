@@ -1,0 +1,17 @@
+.show {
+  max-height: 500px;
+  opacity: 1;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.hide {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.colorHr {
+  background-color: rgba(75, 72, 72, 0.464);
+  font-size: 1px;
+  margin-top: -1.5rem;
+}
